@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.3.2
+
+### Changed
+
+- Mise à jour init pour fonctionner avec nouvelle version de HA
+
 ## v1.3.1
 
 ### Changed
