@@ -2,7 +2,7 @@
   "domain": "veolia",
   "name": "Veolia",
   "codeowners": [
-    "@kugan49" "dric3431"
+    "@kugan49","dric3431"
   ],
   "config_flow": true,
   "dependencies": [],
