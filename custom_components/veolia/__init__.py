@@ -12,6 +12,7 @@ from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 from homeassistant.helpers.typing import ConfigType
+import homeassistant.helpers.config_validation as cv  # <-- AJOUTÉ
 
 from .VeoliaClient import VeoliaClient
 from .const import CONF_ABO_ID, CONF_PASSWORD, CONF_USERNAME, DOMAIN, PLATFORMS
@@ -20,6 +21,9 @@ from .debug import decoratorexceptionDebug
 SCAN_INTERVAL = timedelta(hours=10)
 
 _LOGGER = logging.getLogger(__name__)
+
+# Cette ligne indique à Home Assistant que la configuration se fait via l'interface (Config Flow)
+CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN) #
 
 
 @decoratorexceptionDebug
