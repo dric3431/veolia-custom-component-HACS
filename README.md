@@ -8,7 +8,7 @@
 [![Project Maintenance][maintenance-shield]][user_profile]
 
 
-> # Ce projet n'est plus maintenu !!!!
+> # Ce projet n'est plus maintenu !!!! Fork pour le faire marcher avec la nouvelle version de HA 2026.3
 > 
 > # Vous pouvez trouver une alternative ici :
 > # [https://github.com/Jezza34000/homeassistant_veolia](https://github.com/Jezza34000/homeassistant_veolia)
