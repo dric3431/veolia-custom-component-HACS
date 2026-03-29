@@ -3,7 +3,7 @@
   "config": {
     "step": {
       "user": {
-        "description": "Please use your https://www.service.eau.veolia.fr/ credentials.",
+        "description": "Please use your Veolia customer portal credentials.",
         "data": {
           "username": "Username",
           "password": "Password",
